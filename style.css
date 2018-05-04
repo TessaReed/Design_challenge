@@ -1,0 +1,56 @@
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+.flex-container {
+  display: flex;
+  padding: 10px;
+  background-color: #f8f8f8;
+  width: 586px;
+  height: 73px;
+}
+
+/* fine grey line */
+.content,
+.timing,
+.image {
+  border-top: 1px solid rgba(0, 0, 0, 0.04);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.content {
+  padding: 10px;
+}
+
+img {
+  margin-top: 10px;
+  width: 50px;
+}
+
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 12px;
+  font-family: "Open Sans";
+}
+
+p {
+  display: inline-block;
+}
+
+/* @horse_js tag */
+#tag {
+  color: #a9a7a7;
+  padding: 2px;
+}
+
+#days {
+  margin-left: 209px;
+  color: #d3d3d3;
+  font-size: 12px;
+  font-weight: lighter;
+  padding: 5px;
+}
